@@ -1,6 +1,6 @@
 ## Meeting minutes:
 
-Everett is setting up the UI skelliton. API skelliton is build, and the Fellowship of the POJO is creating the entities tonight.
+Everett is setting up the UI skeleton. API skeleton is build, and the Fellowship of the POJO is creating the entities tonight.
 
 Typedoc: Similar to the auto generated javadocs we will be using typedoc to automatically generate documentation. We will probably all have to 
 take some time to familiarize ourselves with typedoc use.
