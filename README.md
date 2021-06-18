@@ -1,6 +1,14 @@
 # Documentation
 Documentation, minutes, designs, paperwork not explicitly tied to a specific repo
 
+## P3: Roles:
+ - Sprint Lead: Kyle
+ - Trello Manager: Giancarlo
+ - DevOps Lead(s): Sean and Uros
+ - UI Lead(s): Everett and Austin
+ - API Lead(s): Richard and Kevin
+ - Presentation Manager: Nicholas R.
+
 ## Links:
  Trello: https://trello.com/b/MFI9z7R7/user-stories
 
