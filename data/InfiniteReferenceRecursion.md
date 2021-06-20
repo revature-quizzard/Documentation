@@ -5,7 +5,7 @@ some functions still use HashCode and toString which would need to be re-tooled 
 under the hood in many places we decided to just not do it.
 
 
-### Avoid this:
+### Correct way:
 ```
 @Entity
 public class Egg {
@@ -21,10 +21,41 @@ public class Egg {
 @Entity
   public class Basket {
     private int id;
-    
-    @OneToMany
-    private Set<Egg> eggs;
   }
 ```
 
 Instead only include the reference where necessary, referring to the PK of the referenced object from the foreign key field.
+
+## Many-to-many
+The same goes for many-to-many relations where there would be a junction table. Only the "owner" side needs the reference. That is, the side that should be serialized to include
+the other side. The owner side needs a @JoinTable annotation. The owned side does not need a collection field or any reference to the owner side.
+
+### Correct way:
+```
+public class Students {
+
+  @Id
+  @Column(name = "student_id")
+  private int id;
+  
+  @ManyToMany
+  @JoinTable(
+        name = "students_courses",
+        joinColumns = { @JoinColumn(name = "student_id")},
+        inverseJoinColumns = { @JoinColumn(name = "course_id") }
+    )
+  private Set<Courses> courses;
+}
+```
+```
+//No need for a backward reference!
+public class Courses {
+
+  @Id
+  @Column(name = "course_id")
+  private int id;
+  
+  private String courseName;
+}
+
+```
