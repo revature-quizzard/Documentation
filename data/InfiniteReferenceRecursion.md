@@ -1,12 +1,10 @@
 # Infinite Reference Recursion due to circular / bi-directional relations
-
-## Many-to-One
 We have found that having a circular or bi-directional relation causes numerous problems. We can't anticipate a need for this sort of 
 setup, and during our testing we found the best thing to do is avoid this at all costs. Even with the @JsonIgnoreProperties annotation properly set up,
 some functions still use HashCode and toString which would need to be re-tooled to not infinitely recurse. Because this functionality is buried deep 
 under the hood in many places we decided to just not do it.
-
-
+## Many-to-One
+In this relation we only need the reference on the side that contains the foreign key referencing the primary key of the other table, in accordance with the ERD.
 ### Correct way:
 ```
 @Entity
