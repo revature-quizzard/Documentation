@@ -24,5 +24,6 @@ Use java doc comments /** and include all @params, @return, @throws, and @author
 Generate a set of javadocs which use these annotations. IntelliJ > Code > Generate Java Docs.
 
 ## Documenting JS
-Use inline comments, be descriptive. No generation of Javadoc similar documentation. We should make sure to include author, parameters, and return results.
+Use inline comments, be descriptive. We should make sure to include author, parameters, and return results.
+ We want to use Typedoc, must learn conventions.
 
