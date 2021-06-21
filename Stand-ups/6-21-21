@@ -1,0 +1,27 @@
+## 
+### Progress
+Based on the semi-arbitrary point values we generated with planning poker, the user stories marked green in trello (4-12 points) should be nearly complete. Don't be concerned 
+if you aren't nearly complete, if you have been putting in the effort that probably just means we underestimated the tasks. If you have blockers and think you aren't nearing 
+completion of one of these smaller user stories please mention it. 
+
+### Blockers
+Some common blockers that have come up include Redux, Styling, UI testing, and data persistence. 
+
+#### Redux and styling:
+Try not to let these block you too hard for now. If you are blocked on styling, just make it presentable and useful. Don't let beautification block you.
+If you are blocked on Redux, stick with JS/React code you are comfortable with for now and a Redux refactor can come later. Kyle will be speakign with Everett about
+Redux implementation ASAP. Redux is a requirement for this project, so consider researching it as well if it's a blocker for you.
+
+#### Data persistence: 
+We have a few more circular references to iron out, and some connections listed on the ERD are missing. We actually already conviened to implement a fix that is now in pre_dev.
+Pull down from pre_dev to get the most recent entity changes. If you get stack overflows when querying, persisting, or marshalling entity data, please let us know. 
+Sheckeem, Richard, Kyle, Nicholas, and Sean are all familiar with the issue. We hope that it is now in the past for good.
+
+#### UI Testing
+UI side unit testing is something many of us seem to lack experience in. We will need to familiarize outselves with the testing technologies. Also the documentation library 
+Typedoc should be used to create javadoc like documentation out of in-line comments. Because the repos are separate, we can push API side changes that are properly unit tested 
+and circle back to UI unit testing and documentation. We shouldn't wait for this too long though. Unit testing techs: Jest and Enzyme.
+
+#### Conclusion
+We are now past the opening hump, and trucking along nicely. We aren't yet falling behind yet, but I forsee blockers coming up and dragging our progress down. Please feel free 
+to reach out to anyone if you have any questions or blocking at all. We're all one team.
