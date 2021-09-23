@@ -12,6 +12,7 @@ Documentation, minutes, designs, paperwork not explicitly tied to a specific rep
  UI Wireframe: https://lucid.app/lucidchart/invitations/accept/inv_5a836bdb-6b2d-47e5-a428-999820444c32?viewport_loc=-11%2C-11%2C2197%2C1101%2C0_0
  
  User Stories:  https://docs.google.com/document/d/1pt_p7slrMKhpQyEoXKUQMe6HM0qUfPM3FNVCy39XV-0/edit?usp=sharing
+ 
  End point: https://docs.google.com/document/d/11wtRPmHi_38W37dgt__1ZFOtyfwZ0cafiQ4A67NhubQ/edit?usp=sharing
  
  Standups: 
