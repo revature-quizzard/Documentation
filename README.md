@@ -15,6 +15,8 @@ Documentation, minutes, designs, paperwork not explicitly tied to a specific rep
  
  End point: https://docs.google.com/document/d/11wtRPmHi_38W37dgt__1ZFOtyfwZ0cafiQ4A67NhubQ/edit?usp=sharing
  
+ UI Design Layouts: https://lucid.app/lucidchart/caf0615e-d7e3-4991-94cc-9b1996923046/edit?shared=true&page=0_0#
+ 
  Standups: 
  - Game: https://docs.google.com/document/d/1M_cApXE3wDeMSw3arY-4bMsx28jbyyVf8eL7ORyl4oc/edit?usp=sharing
  - Users: https://docs.google.com/spreadsheets/d/10s782kRbTOEx-kS8lD3Em-8svSIbttsQosXUKJCfFYc/edit?usp=sharing
