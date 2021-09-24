@@ -17,7 +17,7 @@ Documentation, minutes, designs, paperwork not explicitly tied to a specific rep
  
  Standups: 
  - Game: https://docs.google.com/document/d/1M_cApXE3wDeMSw3arY-4bMsx28jbyyVf8eL7ORyl4oc/edit?usp=sharing
- - Users: Google Doc
+ - Users: https://docs.google.com/spreadsheets/d/10s782kRbTOEx-kS8lD3Em-8svSIbttsQosXUKJCfFYc/edit?usp=sharing
  - Flash Cards: https://docs.google.com/document/d/1m-CrTCj7w-02WPAKe3Tr8NEzEHcxdgg8-hf9G02cRJY/edit?usp=sharing
  - Forum: https://docs.google.com/spreadsheets/d/1xYas8IeTJHkfXH-8GBGd_cp2YBexx0mFrjnv9SD9cuk/edit?usp=sharing
  
