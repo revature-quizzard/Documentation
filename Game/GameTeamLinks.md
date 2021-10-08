@@ -1,5 +1,3 @@
-Stand Up Google Doc:
+- Stand Up Google Doc:
 
-UI Sequence Diagram:
-
-Redux/DynamoDB Flow Chart:
+    https://docs.google.com/document/d/1M_cApXE3wDeMSw3arY-4bMsx28jbyyVf8eL7ORyl4oc/edit?usp=sharing
