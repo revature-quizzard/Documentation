@@ -1,8 +1,9 @@
 # Example CognitoUser Object
 
 The following is an example of the CognitoUser object that is sent in the response when a user logs in, 
-for better understanding what we recieve and determining how we wish to handle it.
+for better understanding what we recieve from Cognito and determining how we wish to handle it.
 
+```
 {
     "username": "example_user",
     "pool": {
@@ -90,3 +91,4 @@ for better understanding what we recieve and determining how we wish to handle i
     },
     "preferredMFA": "NOMFA"
 }
+```
