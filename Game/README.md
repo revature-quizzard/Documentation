@@ -13,3 +13,7 @@
 - GraphQL Official Documentation:
 
     https://graphql.org/
+    
+- AWS Amplify GraphQL API Official Documentation:
+
+    https://docs.amplify.aws/lib/graphqlapi/getting-started/
