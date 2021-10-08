@@ -2,7 +2,14 @@
 Documentation, minutes, designs, paperwork not explicitly tied to a specific repo
 
 ## P3: Roles:
+Sprint Lead: Jack Raney
 
+Card Lead: William Thomas
+Forum Lead: Luna Haines
+Game Lead: Sean Dunn
+User Lead: Mitchell Panenko
+
+Gitflow Managers: Heather Guilfoyle, Jose Tejada
 
 ## Links:
  Trello: https://trello.com/b/tonWCtap/project-3
